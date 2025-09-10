@@ -1,5 +1,5 @@
 import ProductCard from "./components/ProductCard";
-import ThemeToggle from "./components/ThemeToggle";
+//import ThemeToggle from "./components/ThemeToggle";
 export default async function Page() {
    const res = await fetch(`${process.env.BASE_URL}/api/products`, {
     cache: "no-store",

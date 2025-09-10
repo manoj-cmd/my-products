@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 function ProductCard({ product }) {
   return (
-    <motion.article 
+    <motion.article
       whileHover={{ scale: 1.05 }}
-      className="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transition-all hover:shadow-lg 
+     className="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transition-all hover:shadow-lg 
                  flex flex-col items-center text-center 
                  w-full sm:w-80 lg:w-96 mx-auto"
     >
